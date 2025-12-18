@@ -1,0 +1,42 @@
+/* Common */
+html,
+body {
+  min-height: 100vh;
+}
+
+.footer {
+  position: sticky;
+  top: 100vh;
+}
+
+/* Home */
+.welcome {
+  background-image: url("../img/blue-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-element {
+  padding-top: 20rem;
+}
+
+.welcome-text {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+/* Level 1 */
+.social {
+  width: 2rem;
+  height: 2rem;
+}
+
+.card {
+  min-height: 26rem;
+}
+
+/* Level 2 */
+.table-level2 .card {
+  min-height: 33rem;
+}
